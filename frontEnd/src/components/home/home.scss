@@ -1,0 +1,33 @@
+.mHome{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #F9F9F9;
+    .hBody{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        .mainer{
+            overflow-x: hidden;
+            .banns{
+                border-bottom: 2px solid #ddd;
+            }
+            .design{
+                padding-left: 25px;
+                border-bottom: 2px solid #ddd;
+                background-color: #fff;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    // #slider{
+    //     height: 300px;
+    // }
+    a{
+        text-decoration:none;
+        // color:#0dc441;
+    }
+    a:hover{
+        text-decoration:underline;
+    }
+}

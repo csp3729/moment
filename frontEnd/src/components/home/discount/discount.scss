@@ -1,0 +1,87 @@
+.discount{
+    .discountHead{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 25px 0 10px;
+        font-size: 24px;
+        line-height: 70px;
+        color: #999;
+        border-bottom: 2px solid #ddd;
+        background-color: #fff;
+        margin-bottom: 20px;
+        .dfl{
+            .crown{
+                display: block;
+                width: 37px;
+                height: 37px;
+                margin: 18px 10px 0 25px;
+                float: left;
+                background: url('../../../img/hot.png') no-repeat;
+                background-size: 37px 37px;
+            }
+        }
+        .dfr{
+            a{color: #999}
+            .more{
+                display: block;
+                width: 20px;
+                height: 24px;
+                margin: 25px 0 0 10px;
+                float: right;
+                background: url('../../../img/more.png') no-repeat;
+                background-size: 20px 24px;
+            }
+        }
+    }
+    .list{
+        padding-left: 20px;
+        overflow: hidden; 
+        li{
+            float: left;
+            margin: 0 20px 20px 0;
+            line-height: 40px;
+            background-color: #fff;
+            position: relative;
+            img{
+                width: 345px;
+            }
+            .con{
+                padding: 0 30px;
+            }
+            h4{
+                font-size: 30px;
+                color: #464646;
+                font-weight: normal;
+            }
+            p{
+                font-size: 24px;
+                color: #999
+            }
+            .flex{
+                display: flex;
+                justify-content: space-between;
+                font-size: 28px;
+                margin-left: -4px;
+                line-height: 60px;
+                .original{
+                    font-size: 24px;
+                    color: #999;
+                    text-decoration:line-through;
+                }
+            }
+            .dis{
+                position: absolute;
+                top: 1px;
+                left: 1px;
+                width: 80px;
+                height: 40px;
+                background: url('../../../img/discount.png') no-repeat;
+                background-size: 80px 40px;
+                color: #fff;
+                line-height: 40px;
+                font-size: 24px;
+                padding-left:8px;
+            }
+        }
+    }
+}

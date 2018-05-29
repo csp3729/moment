@@ -1,0 +1,36 @@
+.subject{
+    .subjectHead{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 25px 0 10px;
+        font-size: 24px;
+        line-height: 70px;
+        color: #999;
+        border-bottom: 2px solid #ddd;
+        background-color: #fff;
+        margin-bottom: 20px;
+        .dfl{
+            .crown{
+                display: block;
+                width: 37px;
+                height: 37px;
+                margin: 18px 10px 0 25px;
+                float: left;
+                background: url('../../../img/subject.png') no-repeat;
+                background-size: 37px 37px;
+            }
+        }
+        .dfr{
+            a{color: #999}
+            .more{
+                display: block;
+                width: 20px;
+                height: 24px;
+                margin: 25px 0 0 10px;
+                float: right;
+                background: url('../../../img/more.png') no-repeat;
+                background-size: 20px 24px;
+            }
+        }
+    }
+}

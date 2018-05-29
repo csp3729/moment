@@ -1,0 +1,26 @@
+.catalog{
+    overflow: hidden;
+    padding: 20px 7px 40px;
+    margin-top: 2px;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+    margin-bottom:15px;
+    li{
+        float: left;
+        width: 184px;
+        text-align: center;
+        padding: 10px 0;
+        a{
+            img{
+                width: 100px;
+                height: 100px;
+                margin: 0 auto;
+            }
+            span{
+                font-size: 24px;
+                // line-height: 26px;
+                color: #999;
+            }
+        }
+    }
+}
