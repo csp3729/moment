@@ -87,7 +87,7 @@
                 this.$router.push({name:'goodslist'});
             },
             addToCar:function(){
-                var username = "haha";
+                var username = this.goodObj.username;
                 var goods_id = this.goodObj.id;
                 var qty = this.goodObj.qty;
                 var imgurl = this.goodObj.imgurl;
