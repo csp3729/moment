@@ -25,11 +25,11 @@ export default {
     },
     methods:{
         setActive(e){
-            console.log(e.target)
+            // console.log(e.target)
         }
     },
     mounted(){
-        console.log(this.$store.commit)
+        // console.log(this.$store.state.user.data)
     }
 
 }

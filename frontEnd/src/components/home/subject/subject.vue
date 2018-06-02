@@ -12,6 +12,15 @@
                 </router-link>
             </div>
         </div>
+        <div>
+            <ul class="entrance">
+                <li v-for="(obj, idx) in list" :key="idx">
+                    <router-link :to="obj.path">
+                        <img :src="obj.url" alt="">
+                    </router-link>
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
 
@@ -19,7 +28,13 @@
 import './subject.scss';
 export default {
     data(){
-
+        return{
+            list:[
+                {path:'', text:'', url:'src/img/zoology.png'},
+                {path:'', text:'', url:'src/img/marry.png'},
+                {path:'', text:'', url:'src/img/royal.fw.png'},
+            ]
+        }
     }
 }
 </script>

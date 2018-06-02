@@ -1,0 +1,132 @@
+.YN_Order{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #F9F9F9;
+    .header{
+        position: relative;
+        border-bottom: 2px solid #ddd;
+        background-color: #fff;
+        h3{
+            font-size: 30px;
+            line-height: 88px;
+            padding-top: 40px;
+            color: #774aa9;
+            text-align: center;
+        }
+        i{
+            position: absolute;
+            left: 20px;
+            bottom: 21px;
+            display: block;
+            width: 28px;
+            height: 46px;
+            background: url('../../../img/return.png') no-repeat;
+            background-size: 28px 46px;
+        }
+    }
+    .order_site{
+        display: flex;
+        padding: 20px;
+        margin-top: 10px;
+        border-bottom: 1px solid #ccc;
+        background-color: #fff;
+        .order_icon{
+            .icon{
+                width: 40px;
+                height: 40px;
+                margin-right: 20px;
+            }
+        }
+        .order_siteMes{
+            font-size: 26px;
+            line-height: 40px;
+            padding: 0 5px;
+            .tel{
+                float: right;
+            }
+            .tixing{
+                font-size: 22px;
+                color: #fc673d;
+            }
+        }
+        .order_nav{
+            .nav{
+                width: 40px;
+                height: 40px;
+                margin-left: 20px;
+            }
+        }
+    }
+    .OrderList{
+        flex: 1;
+        overflow-x: hidden;
+        li{
+            overflow: hidden;
+            background-color: #fff;
+            margin-top: 10px;
+            padding: 20px;
+            height: 220px;
+            border-bottom: 1px solid #999;
+            >div{
+                float: left;
+            }
+        }
+        .dvleft{
+            img{
+                width: 180px;
+                height: 180px;
+            }
+        }
+        .dvright{
+            width: 430px;
+            height: 180px;
+            padding-left: 20px;
+            h3{
+                font-size: 30px;
+                line-height: 60px;
+                a{
+                    color: #333333;
+                    font-weight: normal;
+                }
+            }
+            p{
+                font-size: 24px;
+                line-height: 50px;
+                color: #999;
+            }
+            >div{
+                display: flex;
+                justify-content: space-between;
+                line-height: 60px;
+                // padding-right: 20px;
+                .price{
+                    font-size: 28px;
+                    color: #000;
+                }
+                .goodsQty{
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    .order_b{
+        font-size: 32px;
+        line-height: 100px;
+        background-color: #fcfcfc;
+        border-top: 1px solid #ccc;
+        .total{
+            float: left;
+            padding-top: 10px;
+            padding-left: 30px;
+        }
+        .btn{
+            float: right;
+            padding-top: 10px;
+            background-color: #774aa9;
+            color: #fff;
+            text-align: center;
+            width: 280px;
+        }
+    }
+}

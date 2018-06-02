@@ -1,10 +1,9 @@
 const state = {
-    active: ''
+    active: 'home'
 }
 
 const mutations = {
     init(state, act){
-        console.log(arguments)
         state.active = act
     }
 }

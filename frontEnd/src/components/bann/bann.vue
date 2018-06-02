@@ -7,10 +7,9 @@
 
 <script>
 import slider from 'vue-concise-slider';
-
 let list = [
     {
-        title:'test',
+        title:'',
         style:{
             background:'url(src/img/bann/testimg-1.jpg)',
             width: '100%',
