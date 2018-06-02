@@ -17,8 +17,8 @@ export default {
         return{
             menus:[
                 {path: '/', text: '首页', icon: 'homeicon', class: 'home'},
-                {path: '/', text: 'DIV', icon: 'divicon', class: 'div'},
-                {path: '/', text: '首饰盒', icon: 'caricon', class: 'car'},
+                {path: '/goodslist', text: '分类', icon: 'divicon', class: 'goodslist'},
+                {path: '/car', text: '购物车', icon: 'caricon', class: 'car'},
                 {path: '/', text: '我的', icon: 'myicon', class: 'my'},
             ]
         }

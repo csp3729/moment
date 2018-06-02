@@ -177,6 +177,7 @@ export default {
 
     mounted(){
         this.getList();
+        this.$store.dispatch('setActive','car')
     }
 }
 </script>

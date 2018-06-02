@@ -20,7 +20,7 @@
                         <h4>{{obj.text}}</h4>
                         <p>{{obj.describe}}</p>
                         <div class="flex">
-                            <span><i class="original">￥{{obj.price}}</i> ￥{{obj.price*obj.dis}}</span>
+                            <span><i class="original">￥{{obj.price}}</i> ￥{{(obj.price*obj.dis/10).toFixed()}}</span>
                             <span><i></i>{{obj.enshrine}}</span>
                         </div>
                     </div>
