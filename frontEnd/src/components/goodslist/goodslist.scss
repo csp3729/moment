@@ -1,0 +1,124 @@
+html,body{height: 100%;background:#F9F9F9;}
+#d-project{
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    #d-header{
+        display:flex;
+        flex-direction:column;
+        h2{
+            height: 118px;
+            padding-top: 48px;
+            font-size:30px;
+            color:#000;
+            text-align:center;
+            border-bottom:1px solid #C5C4C4;
+            box-shadow:0 -3px 6px 0 #ECECEC inset;
+            position:relative;
+            i{
+                display:block;
+                width: 40px;
+                height: 60px;
+                background:url('../../img/arror.png') no-repeat;
+                position:absolute;
+                top:0;
+                left:10px;
+                top: 50%;
+                transform:translate(0,-50%);
+            }
+        }
+        .banner{
+            border-top:1px solid #C5C4C4;
+            border-bottom:1px solid #C5C4C4;
+            box-shadow:0 3px 6px 0 #ECECEC inset;
+        }
+    }
+    #d-nav{
+        background:#fff;
+        .tab{
+            height: 70px;
+            display:flex;
+            border-bottom:1px solid #C5C4C4;
+            box-shadow:0 -3px 6px 0 #ECECEC inset;
+            line-height:70px;
+            text-align:center;
+            color:#CDCDCD;
+            li{
+                flex:1;
+                
+            }
+        }
+    }
+    #d-main{
+        flex:1;
+        overflow-x:hidden;
+        background:#F9F9F9;
+        .tab{
+            display:flex;
+            flex-wrap:wrap;
+            padding:11px 14px 0;
+
+            li{
+                width: 49%;
+                height: 422px;
+                background:#fff;
+                margin-bottom: 10px;
+                padding-left:32px;
+                padding-top: 5px;
+                img{
+                    height: 280px;
+                    width: 290px;
+                }
+                .name{
+                    height: 30px;    
+                    font-size:24px;
+                    line-height:30px;
+                    color:#7A7A7A;
+                }
+                .kind{
+                    height: 42px;
+                    font-size:22px;
+                    line-height:42px;
+                    color:#B2B2B2;
+                }
+                .price{
+                    display:flex;
+                    span{
+                        flex:1;
+                        padding-top: 7px;
+                    }
+                    .one{
+                        font-size:24px;
+                        color:#8666A4;
+                        font-weight:bold;
+
+                    }
+                    .two{
+                        font-size:22px;
+                        color:#8666A4;
+                        padding-right: 30px;
+                        text-align:right;
+                    }
+                }
+            }
+            li:nth-child(2n-1){
+                margin-right:2%;
+            }
+        }
+
+    }
+    #d-footer{
+        ul{
+            height: 88px;
+            border-top:2px solid #DDDCDC;
+            background:#F9F9F9;
+            display:flex;
+            color:#A8A8A8;
+            li{
+                flex:1;
+                text-align:center;
+                line-height:88px;
+            }
+        }
+    }
+}
